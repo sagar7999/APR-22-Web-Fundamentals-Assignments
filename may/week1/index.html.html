@@ -1,124 +1,32 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-     <title>Document</title>
-    <style>
-        .navbar{
-            width: 1200px;
-            height: 75px;
-            margin: 10px;
-    
-        }
-            
-          .icon{
-              width: 200px;
-              float: left;
-              height: 70px;
-          }  
-          .logo{
-              color: rgb(17, 80, 36);
-              font-size: 35px;
-              font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-              padding-left: 10px;
-              float: left;
-              padding-bottom: 20px;
-              margin-bottom: 10px;
-              text-shadow: 2px,2px rgb(48, 14, 14);
-          }
-          .menu{
-              width: 400px;
-              float: right;
-              height: 70px;
-            word-spacing: 40px;
-            font-family: fantasy;
-            color: chartreuse;
-            text-shadow: 2px,rgb(48, 14, 14);
-            background-color: rgba(229, 160, 160, 0.2);
-        }
-        #i1{
-            float: right;
-            margin :20px;
-            box-shadow: 8px 3px rgb(88, 61, 61), -1em 0 .4em rgb(56, 56, 36);
-            text-shadow: 2px 2px rgb(221, 236, 10);
-        }
-        
-        #i2{
-            float: right;
-            margin :20px;
-            box-shadow: 8px 3px rgb(88, 61, 61), -1em 0 .4em rgb(56, 56, 36);
-            text-shadow: 2px 2px rgb(221, 236, 10);
-        }
-      body{
-        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6bg_2R90WGrTRqKhu0Ef-bkfEtHWAhHOtqw&usqp=CAU);
-        background-size: cover;
-        margin: 0;
-        padding: 0;
-      }
-      
-    
-
-      
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-<body>   
-    <div class="main">
-        <div class="navbar">
-            <div class="icon">
-                <h2 class="logo">geekster's food shop</h2>
-            </div>
-            <div class="menu">
-               <a href="#">Home</a>
-                <a  href="#">Pizza</a>
-                <a href="#">Burger</a>
-               <a href="#">French Fries</a>   
-            </div>
-        </div></div>
+<script>  
+//Function Declaration
+function add(a, b) {        
+     console.log(a + b);
+     }
+// Calling a function
+     add(2, 3);
+//Function Expression: 
+const add =
+function(a,b){
+    console.log(a+b)  
+}
+//calling function
+add(2,3)
+//arrow function
+//single line of code 
+let add = (a,b) => a+b;
+
+console.log(add(3,2));
+</script>
+<body>
     
-
-    <div id="grad">
-
-    <div id="d2">
-        <h1 align="center"  style= "background-color: rgba(185, 40, 29,0.4);border: 2px rebeccapurple;border-radius:80%; margin: 40px; "align="centre"><span style="color: yellow;">Yummy</span> <span style="color: rgb(26, 218, 67);">Food</span></h1>
-        <h2 class="ellipse">enjoy yummy food</h2>
-        <p align="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ullam dolor magnam obcaecati eius facilis tenetur nemo suscipit, fuga dignissimos eum deserunt, dolores sed veniam cumque natus modi quia delectus accusamus? Cum, soluta quisquam, assumenda ut dolores dolor repudiandae corrupti labore et earum iure! Saepe delectus minus possimus repellat cum!</p>
-
-        <div>
-            <div class="flexbox">
-                <div id="i1"><img src="https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" width="600px" height="400px" >
-                <p align="center">Delicious Pizza</p>
-                </div>
-
-                <div id="i2"><img src="https://images.pexels.com/photos/1596888/pexels-photo-1596888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="600px" height="400px">
-                <p align="center">Pizza Spicy</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
- <div>
-     <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex animi porro est, quisquam numquam commodi perspiciatis nam earum? Alias labore laudantium quo? Sit odio vitae modi temporibus aliquid impedit. Magni blanditiis sint, quibusdam optio dolor saepe illo nulla minus? Eaque temporibus in amet incidunt perspiciatis doloribus quia numquam dolore commodi?</p>
-<div id="1">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvxAJcSQRs2u2vkyS5GoKLm66Op0CqWt0rjg&usqp=CAU" width= "300px" height="200px" style="float: right; margin-left: 25px;">
-</div>
-<div id="2">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2BXfSxLxXhfKQy0po0yyVq5QHAmqvi_QzMg&usqp=CAU" width= "300px" height="200px" style="float: right; margin-left: 25px;">
-</div>
-<div id="3">
-    <img src="https://media.self.com/photos/57d8dbf750778cef321a67c9/master/w_1600%2Cc_limit/cravings.jpg" width= "300px" height="200px" style="float: right; margin-left: 25px;">
-</div>
-<div id="4">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFgqmUxoSs0ThWXGWexMXajVnb-zoTObIkaQ&usqp=CAU" width= "300px" height="200px" style="float: right; margin-left: 25px;">
-</div>
-
-
-
- </div>
 </body>
-
-
-
-
-
-
-
-
 </html>
